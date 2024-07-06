@@ -1,0 +1,75 @@
+{
+  "trainingPhrases": [ {
+    "id": "41ff3aab-4b96-4d84-8a8f-d380e7f7a43a",
+    "parts": [ {
+      "text": "久しぶり",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "9b62d919-4c43-4735-8c76-29cf3a227ae8",
+    "parts": [ {
+      "text": "今日は",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "f5adbf9d-e77b-4c38-b56e-18c216075331",
+    "parts": [ {
+      "text": "こんにちは",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "7f3f2750-6d58-4632-9978-08ad083d935c",
+    "parts": [ {
+      "text": "どうも",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "896ba208-52e5-4827-bb61-4feeda76109e",
+    "parts": [ {
+      "text": "やあ、君",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "d5e750ba-6abc-443a-a8a4-babece759dc3",
+    "parts": [ {
+      "text": "やあ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "db48846a-8a64-4453-a3ef-daeaf6b26d87",
+    "parts": [ {
+      "text": "ご挨拶します",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "60f037d8-bfd7-452f-bb89-392449c44dc4",
+    "parts": [ {
+      "text": "はい、こんにちは",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  }, {
+    "id": "987f88d3-39ba-4b70-8de8-642ce33008b2",
+    "parts": [ {
+      "text": "皆さん、こんにちは",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ja"
+  } ]
+}

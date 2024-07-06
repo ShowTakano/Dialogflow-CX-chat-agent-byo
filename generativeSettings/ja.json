@@ -1,0 +1,36 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Default"
+  },
+  "generativeSafetySettings": {
+    "raiSettings": {
+      "categoryFilters": [ {
+        "category": "DANGEROUS_CONTENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "SEXUALLY_EXPLICIT_CONTENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "HARASSMENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "HATE_SPEECH",
+        "filterLevel": "BLOCK_SOME"
+      } ]
+    }
+  },
+  "languageCode": "ja",
+  "knowledgeConnectorSettings": {
+    "business": "Narrative LLC",
+    "agent": "BYO",
+    "agentIdentity": "AI Tour agent",
+    "businessDescription": "Run some hotels",
+    "agentScope": "who visit aizu and want to know where to visit",
+    "mainLlmConfig": {
+      "configSet": "gemini_15_flash_001"
+    }
+  },
+  "llmModelSettings": {
+  
+  }
+}

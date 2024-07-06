@@ -1,0 +1,62 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "こんにちは！" ]
+        },
+        "languageCode": "ja"
+      } ]
+    },
+    "name": "95376ccd-78cd-4452-9660-efa375754243"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "すみません。よく分かりませんでした。", "今のは少しわかりにくかったです。", "少し言い換えていただけませんか。", "失礼ですが、もう一度おねがいします。", "ちょっと分かりませんでした。", "今、なんておっしゃいましたか？" ]
+        },
+        "languageCode": "ja"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "87a48031-56a3-42f6-83e6-f920656bed68"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "すみません。よく分かりませんでした。", "今のは少しわかりにくかったです。", "少し言い換えていただけませんか。", "失礼ですが、もう一度おねがいします。", "ちょっと分かりませんでした。", "今、なんておっしゃいましたか？" ]
+        },
+        "languageCode": "ja"
+      } ]
+    },
+    "name": "80fedcc7-6fe5-4b14-a08c-09ccf0f463f9"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "ja"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/633277732284/locations/global/collections/default_collection/dataStores/ragtest-of-aizu_1719761127966",
+      "languageCode": "ja",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

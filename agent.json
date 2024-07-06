@@ -1,0 +1,49 @@
+{
+  "defaultLanguageCode": "ja",
+  "timeZone": "Asia/Tokyo",
+  "projectNumber": 633277732284,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "enableSpellCorrection": true,
+  "advancedSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      },
+      "useTimeoutBasedEndpointing": true,
+      "models": [ {
+        "key": "ja",
+        "value": "default"
+      } ],
+      "enableSmartEndpointing": true
+    },
+    "playbackInterruptionSettings": {
+      "allowPlaybackInterruption": true
+    },
+    "loggingSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/633277732284/locations/global/collections/default_collection/engines/f4f68e2d-8341-42eb-b1b4-a0d54800fd88"
+  },
+  "duplexSettings": {
+  
+  },
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}
